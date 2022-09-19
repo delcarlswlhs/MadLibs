@@ -12,11 +12,11 @@ public class MadLibs
        System.out.println("Enter your name: ");
        String userName = input.nextLine();
        
-       System.out.println("Enter the month: ");
+       System.out.println("Enter the month (number form): ");
        int month = input.nextInt();
-       System.out.println("Enter the day: ");
+       System.out.println("Enter the day (number form): ");
        int day = input.nextInt();
-       System.out.println("Enter the year: ");
+       System.out.println("Enter the year (number form): ");
        int year = input.nextInt();
        
        input.nextLine();
@@ -49,6 +49,23 @@ public class MadLibs
        String thirdVeg = input.nextLine();
        System.out.println("Enter a noun: ");
        String fourthNoun = input.nextLine();
+       System.out.println("Enter an exclamation: ");
+       String firstExclaim = input.nextLine();
+       System.out.println("Enter an adjective: ");
+       String fourthAdj = input.nextLine();
+       
+       System.out.println(userName);
+       System.out.println(month + "/" + day + "/" + year);
+       System.out.println("Fall has arrived with a chill in the " + firstNoun);
+       System.out.println("The leaves are turning " + firstColor + " and " + secondColor);
+       System.out.println("Night time comes quicker, which usually");
+       System.out.println("means " + secondNoun + "! But today was a " + firstAdj + " day.");
+       System.out.println("My " + thirdNoun + " went to the " + firstVeg + " patch.");
+       System.out.println("The " + firstPerson + " took us on a hay " + firstVerb + " to a big");
+       System.out.println(secondAdj + " field. We all got to pick a " + secondVeg);
+       System.out.println("that was " + thirdAdj + "! Yes night comes quicker now");
+       System.out.println("that it's fall. But tonight my " + thirdVeg + " sits");
+       System.out.println("by my " + fourthNoun + ", " + firstExclaim + " what a " + fourthAdj + " day! ");
        
        
    }
